@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b0db7c92-e15f-4b76-9691-66893c51a9f7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonTutorial.py</StartupFile>
+    <StartupFile>methodsAndClasses.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="generators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="methodsAndClasses.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonTutorial.py" />
   </ItemGroup>
   <PropertyGroup>
